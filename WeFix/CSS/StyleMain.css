@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1eb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%; 
+    animation: fadeIn 1.2s ease-in-out;
+}
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+header {
+    width: 100%;   animation: fadeIn 1.2s ease-in-out;
+}
+
+.header{
+        width: 100%;
+        height: 115px;
+        background-color: #CDF183;
+        padding: 0;
+        display: flex;
+        /*justify-content:left;*/
+        align-items: center;
+        border: solid 2px black;
+        border-left: none;
+        border-right: none;
+}
+
+.logo {
+    width: 111.1px;
+    height: 110.3px;
+    float: left;
+}
+
+.MenuImg{
+    height: 80px;
+    width: 80px;
+    margin-left: 1610px;
+}
+
+.Content {
+    display: flex ;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ContentText{
+    margin-top: 140px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.button-container {
+    height: 300px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    background-color: #CDF183;
+    border-radius: 10px;
+}
+
+.PrimeiroBotao{
+    margin-top: 25px;
+}
+
+button {
+    width: 300px;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}

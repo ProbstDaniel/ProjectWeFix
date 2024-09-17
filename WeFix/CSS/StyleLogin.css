@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1eb;
+}
+header{width: 100%;}
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+/*.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f2e9e1;
+   
+}*/
+
+.header {
+    width: 100%;
+    background-color: #CDF183;
+    padding: 0;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border: solid 2px black;
+    border-left: none;
+    border-right: none;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.logo {
+    width: 111.1px;
+    height: 110.3px;
+    float: left;
+    animation: fadeIn 1.2s ease-in-out;
+}
+.MainPage{
+    width: 100%;
+    min-height: 50%;
+    height:max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;/*alinha td no meio(melhor q align-items)*/
+    animation: fadeIn 1.2s ease-in-out;
+}
+.login-box {
+    background-color: #CDF183;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 60px;
+    border: solid 2px black;
+    animation: fadeIn 1.2s ease-in-out;
+    margin-right: 100px;
+}
+
+.login-box h2 {
+    margin-bottom:10px;
+    padding: 0;
+    color: #333;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.login-box p {
+    color: #333;
+}
+.TextoBVs{
+    margin-bottom: 5px;
+}
+
+.LogoBox{
+    height: 435px;
+    margin-top: 60px;
+    float: left;
+}
+.MainLogo{
+    margin: 162px 0;
+    width: 186px;
+    height: 185px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    margin-left: 145px;
+    padding: 10px 20px;
+    background-color: #141313;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 130px;
+    height: 35px;
+}
+.botao{
+    margin-top: 20px;
+    margin-left: 145px;
+    padding: 10px 20px;
+    background-color: #141313;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 90px;
+    height: 15px;
+}
+button a{
+    color: white;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
