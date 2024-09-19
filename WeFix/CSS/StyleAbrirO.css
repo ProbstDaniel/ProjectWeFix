@@ -1,7 +1,9 @@
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f1eb;
+    animation: fadeIn 1.2s ease-in-out;
 }
 @keyframes fadeIn {
     from {opacity: 0; transform: translateY(-20px);}
@@ -26,6 +28,8 @@ header {
     align-items: center;
     display: flex;
     text-align: center;
+    border: solid 2px black;
+
 }
 
 .Menu{
@@ -38,7 +42,6 @@ header {
     width: 111.1px;
     height: 110.3px;
     float: left;
-    animation: fadeIn 1.2s ease-in-out;
 }
 
 h1 {
@@ -48,21 +51,27 @@ h1 {
     text-align: center;
 }
 
-.menu-icon {
+.DivMenu{
     display: flex;
     flex-direction: column;
     margin-right: 20px;
     cursor: pointer;
 }
+.ContainerForm{
+    width: 100%;
+    align-items: center;
+    align-content: center; /*pra funcionar o align dos dois tipos precisa do display flex*/
+    /*display:grid e place-items: center são milagrosos */
+    display: grid;
+place-items: center;
 
-
-
-.form-container {
+}
+.FormVerde {
     background-color: #c8f080;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 10px;
     width: 400px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 form {
@@ -89,7 +98,11 @@ textarea {
 textarea {
     resize: none;
 }
-
+.BotaoEnviar{
+    width:150px ;
+    height: 38px;
+    margin-left: 250px;
+}
 button[type="submit"] {
     margin-top: 20px;
     padding: 10px;

@@ -17,28 +17,29 @@
                 <div class="TxtHeader">
                 <h1>Abrir Ocorrência</h1>
                 </div>
-                <div class="menu-icon">
-                    <a class="refmenu" href="IndexLogin.html"><img src="img/MenuPreto.png" alt="We fix menu" class="Menu"></a>
+                <div class="DivMenu">
+                    <a class="refmenu" href="IndexLogin.html"><img src="img/MenuPreto.png" class="Menu"></a>
                 </div>
             </div>
         </header>
+        <div class="ContainerForm">
+            <div class="FormVerde">
+                <form action="submitOcorrencia.html" method="POST">
+                    <label for="modelo-veiculo">Modelo do veículo:</label>
+                    <input type="text" id="modelo-veiculo" name="modelo-veiculo" required>
 
-        <div class="form-container">
-            <form action="submitOcorrencia.html" method="POST">
-                <label for="modelo-veiculo">Modelo do veículo:</label>
-                <input type="text" id="modelo-veiculo" name="modelo-veiculo" required>
+                    <label for="numero-veiculo">Número do veículo:</label>
+                    <input type="text" id="numero-veiculo" name="numero-veiculo" required>
 
-                <label for="numero-veiculo">Número do veículo:</label>
-                <input type="text" id="numero-veiculo" name="numero-veiculo" required>
+                    <label for="localizacao">Localização:</label>
+                    <input type="text" id="localizacao" name="localizacao" required>
 
-                <label for="localizacao">Localização:</label>
-                <input type="text" id="localizacao" name="localizacao" required>
+                    <label for="descricao-problema">Descreva o problema:</label>
+                    <textarea id="descricao-problema" name="descricao-problema" rows="4" required></textarea>
 
-                <label for="descricao-problema">Descreva o problema:</label>
-                <textarea id="descricao-problema" name="descricao-problema" rows="4" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+                    <button type="submit" href="IndexMain.html">Enviar</button>
+                </form>
+            </div>
         </div>
 </body>
 
