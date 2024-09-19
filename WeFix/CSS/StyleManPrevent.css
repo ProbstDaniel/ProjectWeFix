@@ -4,13 +4,10 @@
 }
 body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f1eb;
     animation: fadeIn 1.2s ease-in-out;
 }
-
-
 header {
     width: 100%;
 }
@@ -53,29 +50,57 @@ h1 {
     margin-right: 20px;
     cursor: pointer;
 }
-.ContainerBotao {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+.form-container {
+    background-color: #c8f080;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
 }
 
-.Botao {
+h2 {
     background-color: #333;
     color: #fff;
-    padding: 15px 30px;
-    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
-    text-decoration: none;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    font-size: 16px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
     font-size: 18px;
-    font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
-.Botao:hover {
+button:hover {
     background-color: #555;
-}
-
-.BotaoPreventiva {
-    color: #c8f080;
-    text-decoration: underline;
 }
