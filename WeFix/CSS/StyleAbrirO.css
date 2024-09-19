@@ -1,13 +1,12 @@
-
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f1eb;
     animation: fadeIn 1.2s ease-in-out;
-}
-@keyframes fadeIn {
-    from {opacity: 0; transform: translateY(-20px);}
-    to {opacity: 1; transform: translateY(0);}
 }
 .container {
     display: flex;
@@ -63,7 +62,7 @@ h1 {
     align-content: center; /*pra funcionar o align dos dois tipos precisa do display flex*/
     /*display:grid e place-items: center são milagrosos */
     display: grid;
-place-items: center;
+    place-items: center;
 
 }
 .FormVerde {
@@ -102,8 +101,9 @@ textarea {
     width:150px ;
     height: 38px;
     margin-left: 250px;
+    margin-top: 5px;/*depois tirar, é só pq tem dois botões*/
 }
-button[type="submit"] {
+.BotaoEnviar[type="submit"] {
     margin-top: 20px;
     padding: 10px;
     background-color: #333;

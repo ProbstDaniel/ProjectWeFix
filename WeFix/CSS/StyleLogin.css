@@ -47,7 +47,7 @@ header{width: 100%;}
     justify-content: center;/*alinha td no meio(melhor q align-items)*/
     animation: fadeIn 1.2s ease-in-out;
 }
-.login-box {
+.LoginDiv {
     background-color: #CDF183;
     padding: 40px;
     border-radius: 10px;
@@ -59,7 +59,7 @@ header{width: 100%;}
     margin-right: 100px;
 }
 
-.login-box h2 {
+.LoginDiv h2 {
     margin-bottom:10px;
     padding: 0;
     color: #333;
@@ -68,7 +68,7 @@ header{width: 100%;}
 
 }
 
-.login-box p {
+.LoginDiv p {
     color: #333;
 }
 .TextoBVs{
@@ -81,7 +81,7 @@ header{width: 100%;}
     float: left;
 }
 .MainLogo{
-    margin: 162px 0;
+    margin: 164px 0;
     width: 186px;
     height: 185px;
 }
@@ -94,8 +94,9 @@ form {
 
 label {
     margin-top: 10px;
-    font-size: 18px;
     color: #333;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input[type="text"],
