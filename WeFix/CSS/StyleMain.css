@@ -27,23 +27,23 @@ header {
         background-color: #CDF183;
         padding: 0;
         display: flex;
-        /*justify-content:left;*/
         align-items: center;
         border: solid 2px black;
         border-left: none;
         border-right: none;
+        justify-content: space-between; /*deixa cada um num canto*/
 }
-
-.logo {
+.DivMenu{
+    margin-right: 20px;
+}
+.logo{
     width: 111.1px;
     height: 110.3px;
-    float: left;
+    ;
 }
-
 .MenuImg{
     height: 80px;
-    width: 80px;
-    margin-left: 1610px;
+    width: 80px;   
 }
 
 .Content {
