@@ -7,6 +7,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f1eb;
     animation: fadeIn 1.2s ease-in-out;
+    display: grid;
+    place-items: center;
 }
 header {
     width: 100%;
@@ -51,26 +53,12 @@ h1 {
     cursor: pointer;
 }
 .ContainerGrande{
-    width: 100%;
-    display: grid;
-    place-items: center;
-}
-.form-container {
     background-color: #c8f080;
     padding: 30px;
     border-radius: 20px;
     margin-top: 20px;
     width: 90%;
     max-width: 600px;
-    text-align: center;
-}
-
-h2 {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 22px;
 }
 
 form {
@@ -85,14 +73,17 @@ label {
     margin-bottom: 5px;
     color: #333;
 }
-
-input, textarea {
+.Passageiros{
     width: 97%;
+}
+select, input {
+    width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 10px;
     border: 1px solid #333;
     font-size: 16px;
+    background-color: #fff;
 }
 
 button {

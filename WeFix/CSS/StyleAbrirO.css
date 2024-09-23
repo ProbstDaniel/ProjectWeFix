@@ -95,7 +95,7 @@ textarea {
     width:150px ;
     height: 38px;
     margin-left: 250px;
-    margin-top: 5px;/*depois tirar, é só pq tem dois botões*/
+    
 }
 .BotaoEnviar[type="submit"] {
     margin-top: 20px;

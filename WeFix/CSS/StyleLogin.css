@@ -39,18 +39,18 @@ header{width: 100%;}
 }
 .LoginDiv {
     background-color: #CDF183;
-    padding: 40px;
+    padding: 20px 40px 40px 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
     border: solid 2px black;
     animation: fadeIn 1.2s ease-in-out;
     margin-right: 100px;
 }
 
 .LoginDiv h2 {
-    margin-bottom:10px;
+    margin-bottom:30px;
     padding: 0;
     color: #333;
     font-size: 20px;

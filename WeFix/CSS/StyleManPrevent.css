@@ -63,6 +63,7 @@ h1 {
     width: 90%;
     max-width: 600px;
     text-align: center;
+    align-items: center;
 }
 
 h2 {
@@ -84,10 +85,11 @@ label {
     font-size: 16px;
     margin-bottom: 5px;
     color: #333;
+    
 }
 
-input, textarea {
-    width: 100%;
+input{
+    width: 97%;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 10px;
