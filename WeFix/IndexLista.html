@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requests</title>
+    <link rel="stylesheet" href="CSS/StyleLista.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Requests</h1>
+            <nav>
+                <button class="tab active">My requests</button>
+                <button class="tab">Requests I am CC'd on</button>
+            </nav>
+        </header>
+
+        <section class="requests-section">
+            <div class="requests-header">
+                <p id="request-count"></p>
+                <div class="filter-container">
+                    <input type="text" id="search" placeholder="Search" onkeyup="filterRequests()">
+                    <button class="filter-btn">Filter</button>
+                </div>
+            </div>
+
+            <table id="requests-table">
+            </table>
+        </section>
+    </div>
+</body>   
+                

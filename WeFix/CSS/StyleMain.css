@@ -63,7 +63,7 @@ h1 {
 }
 
 .ContainerBotao {
-    height: 300px;
+    padding: 20px 0;
     width: 370px;
     display: flex;
     flex-direction: column;
@@ -73,11 +73,6 @@ h1 {
     background-color: #CDF183;
     border-radius: 10px;
 }
-
-.PrimeiroBotao{
-    margin-top: 25px;
-}
-
 button {
     width: 300px;
     padding: 15px;
