@@ -14,7 +14,7 @@ header {
     width: 100%;
 }
 .Header{
-    width: 100%;
+ 
     height: 115px;
     background-color: #c8f080;
     padding: 0;
@@ -54,58 +54,58 @@ h1 {
 }
 .ContainerGrande{
     background-color: #c8f080;
-    padding: 30px;
+    padding: 10px 35px 30px 35px;
     border-radius: 20px;
-    margin-top: 20px;
-    width: 90%;
-    max-width: 600px;
+    margin-top: 35px;
+    width: 85%;
+    text-align: center;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
 
-label {
-    text-align: left;
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: #333;
-}
-.Passageiros{
-    width: 97%;
-}
-select{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    border: 1px solid #333;
-    font-size: 16px;
-    background-color: #fff;
-}
-input{
-    width: 97%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    border: 1px solid #333;
-    font-size: 16px;
-    
-}
 
-button {
+h2 {
     background-color: #333;
     color: #fff;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
 }
 
-button:hover {
-    background-color: #555;
+.Txts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Parte de cima / Cabeçalho da tabela */
+thead th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/*Faz com que altere as cores das linhas alternadas */
+/*nth que dizer qualquer numero ou "filho"*/
+tbody tr:nth-child(even) { /*todos os pares*/
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) { /*todos os ímpares*/
+    background-color: #f1f1f1;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+

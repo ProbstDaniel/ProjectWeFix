@@ -24,13 +24,17 @@
             <section class="form-container">
                 <h2>Manutenção Preventiva</h2>
                 <form>
-                    <label for="modelo">Modelo do veículo:</label>
-                    <input type="text" id="modelo" name="modelo" required>
-
-                    <label for="numero">Número do veículo:</label>
-                    <input type="text" id="numero" name="numero" required>
-
-                    <button class="BotaoEnviar" type="submit">Enviar</button>
+                    <form input>
+                        <label for="Data">Data:</label>
+                        <input type="date" id="data" name="data" required>
+    
+                        <label for="numero">Número do veículo:</label>
+                        <input type="number" id="numero" name="numero" placeholder="Digite o número do veículo" required>
+    
+                        <label for="Responsavel">Responsavel:</label>
+                        <input type="text" id="Responsavel" name="Responsavel" placeholder="Quem é o responsável?" required></textarea>
+    
+                        <button type="submit">Enviar</button>
                 </form>
             </section>
         </div>
